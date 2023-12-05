@@ -67,15 +67,13 @@ or call the function `global-flycheck-mode'.")
 (custom-autoload 'global-flycheck-mode "flycheck" nil)
 (autoload 'global-flycheck-mode "flycheck" "\
 Toggle Flycheck mode in all buffers.
-With prefix ARG, enable Global Flycheck mode if ARG is positive;
-otherwise, disable it.
+With prefix ARG, enable Global Flycheck mode if ARG is positive; otherwise, disable it.
 
 If called from Lisp, toggle the mode if ARG is `toggle'.
 Enable the mode if ARG is nil, omitted, or is a positive number.
 Disable the mode if ARG is a negative number.
 
-Flycheck mode is enabled in all buffers where `flycheck-mode-on-safe'
-would do it.
+Flycheck mode is enabled in all buffers where `flycheck-mode-on-safe' would do it.
 
 See `flycheck-mode' for more information on Flycheck mode.
 
